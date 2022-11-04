@@ -1,0 +1,169 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif ;
+    
+}
+
+.parent1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .child1 {
+    border: 2px solid white;
+    margin: 10px;
+  }
+  
+  .child2 {
+    margin-right: 10px;
+  }
+
+.contenedor{
+    max-height: 200px;
+    min-width: auto;
+    display: inline-flexbox; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap ;
+}
+.elemento{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: beige;
+    border-width: 20px;
+    padding: 10px;
+    flex-grow: inherit;
+}
+
+.descripcion{
+    align-self: flex-end;
+    align-self: center;
+}
+
+.note{
+    font-style: italic;
+    font-size: smaller;
+}
+
+.div3{
+    min-height: 60px;
+    background-color: #BAE8D9;
+    text-align: center;
+}
+
+
+p.justificado{
+    text-align:justify;
+}
+
+.left{
+    text-align: left;
+    padding-left: 1ch;
+}
+
+.right{
+    text-align: right;
+    padding-right: 1ch;
+}
+.center{
+    text-align: center;
+    text-decoration: solid;
+  
+}
+
+.party{
+    background-color: snow;
+    background-image: url(https://img.freepik.com/premium-photo/happy-birthday-party-background_87742-15348.jpg?w=2000);
+    height: initial;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.boldtitle{
+    font-weight: bold;
+    font-size: 18px ;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+.calabaza{
+    background-color: #FFDFD3;
+}
+
+.fresa{
+    background-color: #FEC8D8;
+}
+
+.vainilla{
+    background-color: #FCF7F3;
+
+}
+
+.titulo{
+    background-color: #ECE9DD;
+}
+.red{
+    background-color: #D291BC;
+}
+
+.choco{
+    background-color: #E4CEA7;
+}
+
+.coco{
+    background-color: #FAF0E0;
+}
+
+.dir{
+    max-height: 200px;
+    min-width: auto;
+    display: inline-flexbox; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap ;
+}
+
+.final{
+    background-color: #BEE8E6;
+    font-size: small;
+    max-height: min-content;
+}
+
+.parent{ 
+    display: grid; 
+    place-items: center;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    border: 5px solid rgba(0, 0, 0, 0.397);
+    width: 50%; 
+    padding: 20px;
+    margin-left: 25%;
+    justify-content: center;
+    align-items: center;
+} 
+.child { 
+    place-items: center;
+    margin: 20px; 
+    border: 2px solid rgba(0, 0, 0, 0.397);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.159);
+}
+footer {
+    background-color: #ECE9DD;
+    border: solid 5px  ;
+    padding: 50px;
+    text-align: center;
+    color: black;
+    border-color: rgba(0, 0, 0, 0.397);
+}
